@@ -33,7 +33,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Cloudy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -69,7 +69,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Rainy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -105,7 +105,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Cloudy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -141,7 +141,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Sunny",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -177,7 +177,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Sunny",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -213,7 +213,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Cloudy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -249,7 +249,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Rainy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -285,7 +285,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Rainy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -321,7 +321,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Cloudy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -357,7 +357,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Sunny",
                    "description": "mist",
                    "icon": "50d"
                }
