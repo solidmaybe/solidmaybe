@@ -1,3 +1,36 @@
 .lobster {
     font-family: 'Lobster Two', cursive;
 }
+
+.text-center {
+    text-align: center;
+    color: dark-grey;
+  }
+
+  .big {
+    font-size: 80px;
+}
+
+.small {
+    font-size: 20px;
+    font-family: 'Helvetica'
+}
+
+.weather-img {
+    width:400px;
+    height:300x;
+}
+
+.temperature-class {
+    font-size: 100px;   
+}
+
+.HumidityClass {
+    font-size:30px;
+    text-align:center;
+}
+
+.tempHiLo {
+    font-size:40px;
+    text-align:center;
+}
