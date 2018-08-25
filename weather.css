@@ -1,3 +1,10 @@
+body {
+    background-image: url("evening-sunset-partly-cloudy.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
 .lobster {
     font-family: 'Lobster Two', cursive;
 }
