@@ -4,7 +4,11 @@
 
 .text-center {
     text-align: center;
-    color: dark-grey;
+    color: white;
+  }
+
+  .white {
+      color:white;
   }
 
   .big {
@@ -19,6 +23,13 @@
 .weather-img {
     width:400px;
     height:300x;
+}
+
+.icon {
+    background-color:transparent;
+    opacity: 50%;
+    width:200px;
+    height:150px;
 }
 
 .temperature-class {
