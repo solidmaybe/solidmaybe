@@ -14,8 +14,8 @@ const weatherData = {
                "temp": 58.24,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 55.4,
-               "temp_max": 60.8
+               "temp_min": 33.4,
+               "temp_max": 55.8
            },
            "dt": 1534258560,
            "wind": {
@@ -50,8 +50,8 @@ const weatherData = {
                "temp": 58.62,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 65.2,
+               "temp_max": 90.8
            },
            "dt": 1534258560,
            "wind": {
@@ -86,8 +86,8 @@ const weatherData = {
                "temp": 58.62,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 32.2,
+               "temp_max": 50.8
            },
            "dt": 1534258560,
            "wind": {
@@ -158,8 +158,8 @@ const weatherData = {
                "temp": 58.62,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 42.2,
+               "temp_max": 65.8
            },
            "dt": 1534258560,
            "wind": {
@@ -194,8 +194,8 @@ const weatherData = {
                "temp": 58.06,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 55.4,
-               "temp_max": 60.8
+               "temp_min": 59.4,
+               "temp_max": 88.8
            },
            "dt": 1534258560,
            "wind": {
@@ -230,8 +230,8 @@ const weatherData = {
                "temp": 59.04,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 39.2,
+               "temp_max": 65.8
            },
            "dt": 1534258560,
            "wind": {
@@ -266,8 +266,8 @@ const weatherData = {
                "temp": 58.53,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 48.2,
+               "temp_max": 70.8
            },
            "dt": 1534258560,
            "wind": {
@@ -302,8 +302,8 @@ const weatherData = {
                "temp": 58.62,
                "pressure": 1014,
                "humidity": 87,
-               "temp_min": 57.2,
-               "temp_max": 60.8
+               "temp_min": 55.2,
+               "temp_max": 65.8
            },
            "dt": 1534258560,
            "wind": {
@@ -339,7 +339,7 @@ const weatherData = {
                "pressure": 1014,
                "humidity": 87,
                "temp_min": 55.4,
-               "temp_max": 60.8
+               "temp_max": 112.8
            },
            "dt": 1534258560,
            "wind": {
