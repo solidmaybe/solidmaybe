@@ -33,7 +33,7 @@ const weatherData = {
            "weather": [
                {
                    "id": 701,
-                   "main": "Mist",
+                   "main": "Rainy",
                    "description": "mist",
                    "icon": "50d"
                }
@@ -383,13 +383,20 @@ function weatherApp(obj, cityName1){
    for(let i = 0; i < obj.list.length; i++){
        if(obj.list[i].name === cityName1){
            let cityTemp = obj.list[i].main.temp;
-            document.getElementById("temperatureID").innerHTML = cityTemp;
+            document.getElementById("temperatureID").innerHTML = cityTemp + "&#8457";
             let cityTempMin = obj.list[i].main.temp_min;
-            document.getElementById("tempLowID").innerHTML = cityTempMin;
+            document.getElementById("tempLowID").innerHTML = cityTempMin + "&#8457";
             let cityTempMax = obj.list[i].main.temp_max;
-            document.getElementById("tempHighID").innerHTML = cityTempMax;
-       //     let cityWeather = obj.list[i].weather[0].main;
-       //     document.getElementById("").innerHTML = cityWeather;
+            document.getElementById("tempHighID").innerHTML = cityTempMax + "&#8457";
+            let cityWeather = obj.list[i].weather[0].main;
+            document.getElementById("cityWeather").innerHTML = cityWeather;
+            if(cityWeather === "Rainy"){
+                document.getElementById("iconImgID").src = "rainy.svg";
+            }else if(cityWeather === "Cloudy"){
+                document.getElementById("iconImgID").src = "cloudy.svg";
+            }else{
+                document.getElementById("iconImgID").src = "sunny.svg";
+            }
             let cityHumidity = obj.list[i].main.humidity;
             document.getElementById("humidityID").innerHTML = cityHumidity;
            document.getElementById("city_name").innerHTML = cityName1 + ", CA";
